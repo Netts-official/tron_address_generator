@@ -103,11 +103,11 @@ MIT — Use freely, modify for your needs.
 
 # Commands
 
-'python3 -m venv venv'
-'source venv/bin/activate'
-'deactivate'
-'pip install requests'
-'pip install -r requirements.txt'
-'chmod +x star_pool.sh'
-'pip freeze > requirements.txt'
-'ps aux | grep python'
+- `python3 -m venv venv`
+- `source venv/bin/activate`
+- `deactivate`
+- `pip install requests`
+- `pip install -r requirements.txt`
+- `chmod +x star_pool.sh`
+- `pip freeze > requirements.txt`
+- `ps aux | grep python`
