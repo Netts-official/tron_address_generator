@@ -42,6 +42,7 @@ Use `nohup` to keep the process running after terminal close:
 
 ```bash
 nohup python3 app/address_generator.py > logs/console.log 2>&1 &
+nohup python3 app/address_generator.py > logs/console.log 2>&1 &
 ```
 
 This will:

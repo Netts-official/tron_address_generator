@@ -1,0 +1,170 @@
+[
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_10.txt",
+    "line": 251953,
+    "address": "TVnFSnz62dVoEsunoPowerYnYhGoo71V7q",
+    "private_key": "43b01e2a2de02b3c879b6faa74f216a448ac582d7e5513cbf0721413c1a9a5b2",
+    "score": 120,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "POWER",
+        "position": "17-22",
+        "score": 75
+      },
+      {
+        "type": "word",
+        "pattern": "SUN",
+        "position": "13-16",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_10.txt",
+    "line": 357022,
+    "address": "TRoNgccKKj3Zq84adiCEYUAsyWhz7QRdxy",
+    "private_key": "458c70473604550a15bb1a394bbdca73c0679f6288ac1d30052cfb039c8a8382",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "TRON",
+        "position": "0-4",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "ICE",
+        "position": "17-20",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_24.txt",
+    "line": 51928,
+    "address": "TEBqsQFy2rPbeSTS5SuN6DkEYTFgnpdeaG",
+    "private_key": "a400b6a23087d1f658f98f873ea8733548e298491da29bd90d284ba728030a8d",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "BEST",
+        "position": "11-15",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "SUN",
+        "position": "17-20",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_27.txt",
+    "line": 43083,
+    "address": "TYQgS6ZEbESTeKCi1axKpk2G55eCWoLfg8",
+    "private_key": "9e007fd45d65fd4f27518cbeb533b49dd47e791bd3bddd256430770fbaefc5fd",
+    "score": 120,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "BEST",
+        "position": "8-12",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "WOLF",
+        "position": "28-32",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_6.txt",
+    "line": 260635,
+    "address": "TAj5p24Z2vxFjWa8xtbEStVdvCYw1iceZa",
+    "private_key": "8017ae8aa5b6b79d066947adf23398349ad0b12d9736ce60f3ce0f8a1192183a",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "BEST",
+        "position": "18-22",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "ICE",
+        "position": "29-32",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_8.txt",
+    "line": 62519,
+    "address": "TVCAshEJHyPojHuSorEATJqsuNCDvrduWt",
+    "private_key": "0e605f75a2a226e034fb3e9aff68a4edcad5acf0482486efce58f29742e59dd1",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "CASH",
+        "position": "2-6",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "SUN",
+        "position": "23-26",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_8.txt",
+    "line": 172518,
+    "address": "TCwoVqWKNUe7suNTnKBeARZSe5Q9brugm7",
+    "private_key": "31971f11d56fbc058330229ada611e6ca68dfa22c0fef60d351f1b25be265cb5",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "SUN",
+        "position": "12-15",
+        "score": 45
+      },
+      {
+        "type": "word",
+        "pattern": "BEAR",
+        "position": "18-22",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "file": "/home/to/your/projects/tron_address_generator/addresses_thread_8.txt",
+    "line": 424225,
+    "address": "TRiCEmptBwLP6J3sz356pecMXKgbEsTkY1",
+    "private_key": "67366248c6314ea5951ce8f56307f04819353cbaae72b8d1042ba11653e90355",
+    "score": 105,
+    "patterns": [
+      {
+        "type": "word",
+        "pattern": "BEST",
+        "position": "27-31",
+        "score": 60
+      },
+      {
+        "type": "word",
+        "pattern": "ICE",
+        "position": "2-5",
+        "score": 45
+      }
+    ]
+  }
+]

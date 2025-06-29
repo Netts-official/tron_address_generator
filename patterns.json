@@ -1,0 +1,73 @@
+{
+  "patterns": {
+    "repeating_digits": {
+      "name": "Повторяющиеся цифры",
+      "description": "Адреса с повторяющимися цифрами (например, 8888888)",
+      "priority": 1,
+      "min_length": 5,
+      "score_multiplier": 10
+    },
+    "repeating_letters": {
+      "name": "Повторяющиеся буквы",
+      "description": "Адреса с повторяющимися буквами (например, AAAAAAA)",
+      "priority": 2,
+      "min_length": 5,
+      "score_multiplier": 8
+    },
+    "sequential_digits": {
+      "name": "Последовательные цифры",
+      "description": "Адреса с последовательными цифрами (123456, 654321)",
+      "priority": 3,
+      "min_length": 5,
+      "score_multiplier": 12
+    },
+    "words": {
+      "name": "Слова в адресе",
+      "description": "Адреса, содержащие читаемые слова",
+      "priority": 4,
+      "score_multiplier": 15,
+      "word_list": [
+        "TRON", "COIN", "CASH", "GOLD", "BANK", "RICH", "MEGA", "SUPER",
+        "LUCKY", "HAPPY", "MONEY", "CRYPTO", "WALLET", "FORTUNE", "DIAMOND",
+        "CROWN", "KING", "QUEEN", "POWER", "SMART", "FAST", "COOL", "BEST",
+        "LOVE", "LIFE", "MOON", "STAR", "SUN", "FIRE", "ICE", "LION",
+        "TIGER", "DRAGON", "PHOENIX", "EAGLE", "BEAR", "BULL", "WOLF",
+        "WIN", "BIG", "TOP", "MAX", "PRO", "VIP", "ELITE", "PRIME", "Netts", "Energy", "Bot", "Wallet", "Tron", "Address", "Generator", "Pattern", "Beautiful", "Legendary", "Crypto", "Currency", "Blockchain", "Decentralized", "Finance", "DeFi", "NFTs", "SmartContract", "Token", "Mining", "Staking", "Yield", "Farming", "Liquidity", "Pool", "Exchange", "Trading", "Arbitrage", "HODL", "FOMO", "FUD", "Airdrop", "Whale", "Satoshi", "Halving", "Fork", "Gas", "Block", "Chain", "Ledger", "Hash", "Node", "Peer-to-Peer", "DApp", "DAO", "Governance", "Privacy", "Security", "Anonymity", "Wallets", "ColdStorage", "HotWallet", "MultiSig", "PrivateKey", "PublicKey", "Address", "Transaction", "Fee", "Confirmation", "BlockExplorer", "Tokenomics", "Supply", "Demand", "MarketCap", "Volatility", "Boooooooot", "Boooooooots", "Booooooooting", "Booooooooted", "Boooooooots", "Booooooooting", "Booooooooted", "Boooooooots", "Booooooooting", "Booooooooted", "Boooooooots", "Booooooooting", "Booooooooted", "Boooooooots", "Booooooooting", "Booooooooted", "Tron", "TronWallet", "TronAddress", "TronGenerator", "TronPattern", "TronBeautiful", "TronLegendary", "TronCrypto", "TronCurrency", "TronBlockchain", "TronDeFi", "TronNFTs", "TronSmartContract", "TronToken", "TronMining", "TronStaking", "TronYieldFarming", "TronLiquidityPool", "TronExchange", "TronTrading", "TronArbitrage", "Crypto", "CryptoCurrency", "CryptoBlockchain", "CryptoDeFi", "CryptoNFTs", "CryptoSmartContract", "CryptoToken", "CryptoMining", "CryptoStaking", "CryptoYieldFarming", "CryptoLiquidityPool", "CryptoExchange", "CryptoTrading", "CryptoArbitrage", "CryptoHODL", "CryptoFOMO", "CryptoFUD", "CryptoAirdrop", "CryptoWhale", "CryptoSatoshi", "CryptoHalving", "CryptoFork", "CryptoGas", "CryptoBlock", "CryptoChain", "CryptoLedger", "CryptoHash", "CryptoNode", "CryptoPeerToPeer", "CryptoDApp", "CryptoDAO", "CryptoGovernance", "CryptoPrivacy", "CryptoSecurity", "CryptoAnonymity", "USDT", "USDC", "BUSD", "DAI", "Tether", "Circle", "Binance", "Stablecoin", "Fiat", "DigitalAsset", "CryptoAsset", "CryptoInvestment", "CryptoPortfolio", "CryptoTradingStrategy", "CryptoMarketAnalysis", "CryptoNews", "CryptoCommunity", "CryptoForum", "CryptoSocialMedia", "TRX", "TRON", "TRC20", "TRC10", "TRC721", "TRC1155", "TRONLink", "TRONScan", "TRONWallets", "TRONStaking", "TRONMining", "TRONDeFi", "TRONNFTs", "TRONSmartContract", "TRONTokens", "TRONExchange", "TRONTrading", "TRONArbitrage", "Tronbot", "Tronenergy", "Tronwallet", "Tronaddress", "Trongenerator", "Tronpattern", "Tronbeautiful", "Tronlegendary", "Troncrypto", "Troncurrency", "Tronblockchain", "Trondefi", "Tronnfts", "Tronsmartcontract", "Trontoken", "Tronmining", "Tronstaking", "Tronyieldfarming", "Tronliquiditypool", "Tronexchange", "Trontrading", "Tronarbitrage"
+      ]
+    },
+    "mirror": {
+      "name": "Зеркальные адреса",
+      "description": "Адреса с зеркальными частями (например, ABC...CBA)",
+      "priority": 5,
+      "min_length": 3,
+      "score_multiplier": 20
+    },
+    "special_ending": {
+      "name": "Специальное окончание",
+      "description": "Адреса с особыми окончаниями",
+      "priority": 6,
+      "score_multiplier": 10,
+      "endings": [
+        "000", "111", "222", "333", "444", "555", "666", "777", "888", "999",
+        "0000", "1111", "2222", "3333", "4444", "5555", "6666", "7777", "8888", "9999",
+        "00000", "11111", "22222", "33333", "44444", "55555", "66666", "77777", "88888", "99999",
+        "123", "1234", "12345", "123456", "7777777", "8888888", "777777777", "888888888",
+        "321", "4321", "54321", "654321", "007", "420", "666666", "777777"
+      ]
+    },
+    "special_beginning": {
+      "name": "Специальное начало",
+      "description": "Адреса с особыми началами (после префикса T)",
+      "priority": 7,
+      "score_multiplier": 10,
+      "beginnings": [
+        "111", "222", "333", "444", "555", "666", "777", "888", "999",
+        "1111", "2222", "3333", "4444", "5555", "6666", "7777", "8888", "9999",
+        "123", "1234", "12345", "ABC", "XYZ", "AAA", "BBB", "CCC"
+      ]
+    }
+  },
+  "min_score_beautiful": 50,
+  "min_score_very_beautiful": 100,
+  "min_score_legendary": 200
+}
